@@ -1,0 +1,11 @@
+The current workflow works perfectly, but isn't perfect:
+
+Yo uneed to have Jupyter Notebook installed to open Prepare.ipynb
+
+– typeform/responses.csv is a file with the current participants. New registrations are imported here. If someone unsubscribed (via the mail they get), I remove them.
+- config.py holds the central information on the platform, mails account etc.
+- /templates holds the templates for e-mails.
+- In /history I store all past walks_date.csv files with the respective date. I load the history in Prepare.ipynb in order to avoid overlaps. If there is an unequal number, you need to add/remove someone from the list (when it happened, I added myself to see how it's going).
+- Prepare.ipynb is currently a Jupyter notebook in which I create the final walks.csv of the week. Important: np.random.seed(5) needs to be changed every week to randomize the order.
+_ When the walks.csv is created in Prepare.ipynb, I open terminal and run python3 Run.py and all mails are sent out automatically.
+

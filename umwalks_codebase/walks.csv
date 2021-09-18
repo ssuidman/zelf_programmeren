@@ -1,0 +1,2 @@
+name,status,email,phone,faculty,location,name_peer,status_peer,email_peer,phone_peer,faculty_peer,location_peer,walk_id
+Bob,Student,b.obdummy@student.maastrichtuniversity.nl, +123456789,Faculty of Psychology and Neuroscience,Maastricht,Tina,Student,t.inadummy@student.maastrichtuniversity.nl, +123456789,School of Business and Economics,Maastricht

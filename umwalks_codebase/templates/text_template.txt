@@ -1,0 +1,25 @@
+Dear {name},\r\n
+
+Thank you for participating this week in {config_platform}! We try to enable a safe environment for you to have chance encounters, allowing for the sharing of ideas and experiences of students and staff across campus. So far, we connected more than 1,300 students across campus. Apparently some of the meetings helped you make these days a little better, which is wonderful to hear! \r\n
+
+Your Peer: {name_peer} \r\n
+
+Your random peer in this week is {name_peer} from the {faculty_peer}. Please contact {name_peer} via phone {phone_peer} or e-mail ({email_peer}).\r\n
+
+If you both happen to be in {config_local}, you can either arrange a phone call or meet for a walk in the fresh air. If at least one is located elsewhere, you can still make a phone call and each walk for yourself, taking into account local safety conditions.
+
+Safety &#128678;\r\n
+
+Always make sure to comply with the official safety measures ({config_safety}). Take as much or as little time as you feel comfortable, and please keep your peer's phone number confidential. Using {config_platform} is at your own risk.\r\n
+
+After the Walk &#128077;\r\n
+
+When you enjoyed the phone call or walk, you don't have to do anything. We will propose you a weekly randomized parter for the until next Sunday. On Sunday, you will be asked whether you like to take a 1 or 2 week break from UM Walks in April. The service will continue, as long as it remains useful, and you can always unsubscribe below. :\r\n
+
+Thanks advance! And don't forget:\r\n
+
+{config_lead}\r\n
+
+Your {config_platform} team \r\n\r\n
+
+If you no longer wish to participate in {config_platform}, please respond to this e-mail with "Unsubscribe" in the Subject of your mail. \r\n\r\n
