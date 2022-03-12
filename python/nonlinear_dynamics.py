@@ -12,12 +12,9 @@ def vectors(X,Y,cart_pol): #In this function you can tell if you're in X,Y or R,
     if cart_pol == 'polar':
         R = np.sqrt(X ** 2 + Y ** 2)
         Theta = np.arctan(X / Y)
-
         dR,dTheta = f(R,Theta)
-
         dX = X / np.sqrt(X ** 2 + Y ** 2) * dR - Y * dTheta
         dY = Y / np.sqrt(X ** 2 + Y ** 2) * dR + X * dTheta
-
     else:
         print('set cart_pol to "cartesian" or "polar"')
     return dX,dY
