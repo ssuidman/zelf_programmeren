@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
+from tqdm import trange
 
 points = np.array([[0,0],[1,0],[1/2,np.sqrt(3/4)]])
 
@@ -9,9 +10,7 @@ def f(x,y,N,points):
     y_points = points[:,1] 
     x_list = [x] 
     y_list = [y] 
-    for i in range(N): 
-        if i in [int(a*N/100) for a in range(1,101)]: 
-            print(str(int(i/N*100))+'%') 
+    for i in trange(N): 
         j = np.random.randint(len(points)) 
         x = x_points[j]*0.5 + x*0.5 
         y = y_points[j]*0.5 + y*0.5 

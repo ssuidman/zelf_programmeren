@@ -53,5 +53,4 @@ for i in range(3):
             ax[i][j].set_xlabel('Re(z)')
         if j==0:
             ax[i][j].set_ylabel('Im(z)')
-
-
+plt.show()
